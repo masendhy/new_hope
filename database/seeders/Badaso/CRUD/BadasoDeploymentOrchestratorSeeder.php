@@ -18,5 +18,15 @@ class BadasoDeploymentOrchestratorSeeder extends Seeder
      */
     public function run()
     {
+        
+        
+        
+        
+        $this->seed(FoodsCRUDDataDeleted::class);
+        
+        
+        $this->seed(FoodCategoriesCRUDDataDeleted::class);
+        $this->seed(FoodCategoriesCRUDDataTypeAdded::class);
+        $this->seed(FoodCategoriesCRUDDataRowAdded::class);
     }
 }

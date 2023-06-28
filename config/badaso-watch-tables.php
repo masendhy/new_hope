@@ -1,5 +1,7 @@
 <?php
 
 return [
-    // table names for generating CRUD_DATA seeders.
+    'food_categories',
+    'foods',
+    'members',
 ];
